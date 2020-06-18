@@ -1,7 +1,5 @@
 package Q_157_181;
 
-import java.sql.SQLOutput;
-
 class Planet {
 	public String name;
 	public int moons;

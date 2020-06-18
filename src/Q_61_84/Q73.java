@@ -39,8 +39,8 @@ class MyField {
         int x;
         int y; //
         public void doStuff(int x, int y){ //100 200
-               this.x = x; //100
-                y = this.y; //0
+               x = x;
+              this.y = y;
                 //this.y = y; olursa cavap 100 200 100 100
         }
         public void display(){

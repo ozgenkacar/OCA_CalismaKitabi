@@ -12,7 +12,7 @@ class Test {
         //    System.out.println(chs[1].length);
 
         for (int a = 0; a < chs.length; a++) {
-            for (int b = 0; b < chs.length; b++) {
+            for (int b = 0; b < chs[a].length; b++) {
                 chs[a][b] = " " + i;
                 i++;
 

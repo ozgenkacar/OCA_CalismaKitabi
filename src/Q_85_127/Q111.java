@@ -4,7 +4,8 @@ public class Q111 {
 
     public static void main(String[] args) {
         //line n1
-      /*  switch (x) {
+    Integer x=1;
+       switch (x) {
             case 1:
                 System.out.println("One");
                 break;
@@ -12,7 +13,7 @@ public class Q111 {
                 System.out.println("Two");
                 break;
         }
-*/
+
     }
 }
 //CIBSS  ==> Char, Integer, Byte, String, Short u switch te kullanabiliriz

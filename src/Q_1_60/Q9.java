@@ -12,19 +12,20 @@ public class Q9 {
 
     class B extends C {
         public B() {                   //line n1
-        System.out.println("B");
-    }
+            System.out.println("B");
+        }
     }
 
-    public class A extends B {           //line n2
+     class A extends B {           //line n2
         public A() {
             System.out.println("A");
         }
 
-  //      public static void main(String[] args) {
-            A a = new A();
-        }
+       // public static void main(String[] args) {
+       //     A a = new A();
+      //  }
     }
+}
 //second version da classlarin yeri degismis
 
 

@@ -22,7 +22,7 @@ public class Q156 {
 		A b2=new C();
 		
 		b1=(A)b2;//line 1
-		A b3=(B) b2;//line 2
+		A b3= b2;//line 2
 		b1.test();
 		b3.test();
 	}

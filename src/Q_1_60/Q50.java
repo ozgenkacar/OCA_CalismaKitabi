@@ -14,5 +14,6 @@ Answer: C
         StringBuilder sb = new StringBuilder("hello");
         sb.delete(0,sb.length()); //--> deletes the string
         System.out.println(sb);
+
     }
 }

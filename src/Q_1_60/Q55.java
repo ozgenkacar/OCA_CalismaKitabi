@@ -8,8 +8,8 @@ public class Q55 {
     //55. Given the code fragment:
     public static void main(String[] args) {
         LocalDate date1 = LocalDate.now();
-     //   LocalDate date2 = LocalDate.of(2014, 06,20); // dogrusu boyle yazilmali
-        LocalDate date2 = LocalDate.of(6, 20,2014); //soruda bu sekilde
+ LocalDate date2 = LocalDate.of(2014, 06,20); // dogrusu boyle yazilmali
+    //    LocalDate date2 = LocalDate.of(6, 20,2014); //soruda bu sekilde
        LocalDate date3 = LocalDate.parse("2014-06-20", DateTimeFormatter.ISO_DATE);
         System.out.println("date1 = " + date1);
         System.out.println("date2 = " + date2);
@@ -44,14 +44,6 @@ public class Q55 {
         C. Option C
         D. Option D
         Answer: A
-
-
-        NOT:  outputta testi yaptigimiz tarihi verir  o yuzden bizde
-         date1 = 2020-04-07
-         date2 = 2020-04-07
-         date3 = 2020-04-07
-         olur
-
          */
 
     }

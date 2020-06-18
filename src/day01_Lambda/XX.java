@@ -30,10 +30,11 @@ public class XX {
 
         List<Integer> aliabi = new ArrayList<>(Arrays.asList(2,3,4,5,6,7,89,90));
         System.out.println("Orignial liste : "+aliabi);
-        aliabi.removeIf(x->x%2==00);
-        System.out.println("Cift sayilar : "+aliabi);
+        aliabi.removeIf(x->x%2==0);
+        System.out.println("tek sayilar : "+aliabi);
         aliabi.forEach(x->System.out.println(x));
         aliabi.forEach(x->System.out.println(x+3)); //3 eklersek
+
 
 
 

@@ -1,6 +1,5 @@
 package Q_85_127;
 
-import java.io.IOException;
 class MyException extends RuntimeException {}
 public class Q85 {
 

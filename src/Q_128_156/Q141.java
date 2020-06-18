@@ -8,6 +8,9 @@ public class Q141 {
         boolean contract;
          double salary;
          Employee(){
+             this.name= new String("Joe");
+             this.contract=new Boolean(true);
+             this.salary= new Double(100);
 
              //line n1
          }
@@ -30,9 +33,9 @@ public class Q141 {
 /*
 Which two modifications, when made independently, enable the code to print Joe:true: 100.0? (Choose two.)
   A- Replace line n2 with;
-  e.name= "Joe';
-  e.contract= true;
-  e.salary= 100;
+            e.name= "Joe";
+            e.contract= true;
+            e.salary= 100;
 
   B-  Replace line n2 with;
   this.name="Joe";

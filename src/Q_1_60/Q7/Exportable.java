@@ -1,33 +1,35 @@
 package Q_1_60.Q7;
 
-//public interface Exportable {
-//    void export(); //interface de access modifier vermesek te implicitly olarak "public" tir.
-//}
-//
-//
-//class Tool implements Exportable {
-//// protected void export() {   //line nl //soruda bu sekilde
-//public void export() {
-//    System.out.println("Tool::export");
-//    }
-//}
-//class ReportTool extends Tool implements Exportable {
-//    public void export() {                      // line n2
-//        System.out.println("RTool::export");
-//    }
-//
-//    public static void main(String[] args) {
-//        Tool aTool = new ReportTool();
-//        Tool bTool = new Tool();
-//        callExport(aTool);
-//        callExport(bTool);
-//    }
-//
-//    public static void callExport(Exportable ex) {
-//        ex.export();
-//
-//    }
-//}
+public interface Exportable {
+   void export(); //interface de access modifier vermesek te implicitly olarak "public" tir.
+    int x=5;  //default olarak public static final
+}
+
+
+class Tool implements Exportable {
+    public void export() {   //line nl //soruda protected verilmiş
+            System.out.println("Tool::export");
+        }
+    }
+
+class ReportTool extends Tool implements Exportable {
+    public void export() {                      // line n2
+       System.out.println("RTool::export");
+   }
+
+   public static void main(String[] args) {
+        Tool aTool = new ReportTool();
+   Tool bTool = new Tool();
+    callExport(aTool);
+     callExport(bTool);
+  }
+
+   public static void callExport(Exportable ex) {
+        ex.export();
+
+  }
+}
+
 // What is the result?
 // A. Compilation fails only at line n2.
 // B. RTool:exportTool::export

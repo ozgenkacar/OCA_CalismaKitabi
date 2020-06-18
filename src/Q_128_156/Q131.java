@@ -8,8 +8,8 @@ public class Q131 {
     //Given the code fragment:
 
     public static void main(String[] args) {
-        LocalDate date = LocalDate.of(2012, 01,32);
-         date.plusDays(10);
+        LocalDate date = LocalDate.of(2012, 1,31);
+         date.plusDays(10); //   date=date.plusDays(10);
         System.out.println(date);
     }
 

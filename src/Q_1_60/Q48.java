@@ -5,6 +5,14 @@ import java.util.List;
 
 public class Q48 {
     public static void main(String[] args) {
+        List num = new ArrayList();
+        num.add("2");
+        num.add("3");
+        num.add("1");
+        num.remove("1");  //remove element value 1
+        num.remove(0);// remove 'ndex 1
+        System.out.println(num);
+
 //        List colors = new ArrayList<>();   //type eklenmiyorsa herhangi bir type yazabiliriz. //List<Object> //List<?> de olabilir
 //        colors.add("green");
 //        colors.add("blue");

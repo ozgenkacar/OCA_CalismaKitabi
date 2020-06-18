@@ -6,11 +6,12 @@ public class Q1_3 {
         return true;
     }
     public static void main(String[] args) {
-//        int v1 = 23;
+
+    //   int v1 = 23;
 //        float v2 = 45f;
 //
 //        double d = v1;
-//        float f= v1;
+ //      float f= v1;
 
         int i = 15;
 

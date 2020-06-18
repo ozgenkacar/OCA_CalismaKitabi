@@ -1,17 +1,18 @@
 package Q_1_60;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Q3 {
     public static void main(String[] args) {
 
-//        int num [][] =  new int[1][3];                      // 1 row 3 deger
-//        for (int i = 0 ; i < num.length; i++){              //num.length 3 'tur
-//            for (int j = 0; j < num[i].length; j++){        //1 row var ve rowun degeri 3 tur.
-//                num[i][j] = 10;
-//            }
-//        }
+        int num [][] =  new int[1][3];                      // 1 row 3 deger
+       for (int i = 0 ; i < num.length; i++){              //num.length 1 'tur
+          for (int j = 0; j < num[i].length; j++){        //1 row var ve rowun degeri 3 tur.
+               num[i][j] = 10;
+              System.out.println(num[i][j]);
+           }
+
+       }
         //num [0] [0] = 10
         //num [0] [1] = 10
         //num [0] [2] = 10

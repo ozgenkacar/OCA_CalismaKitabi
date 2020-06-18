@@ -20,7 +20,7 @@ public class Q21_22 {
 			D. A class can have overloaded static methods.
 			E. The methods are mandatory components of a class.
 			F. The fields need not be initialized before use.
-			Answer: ACE
+			Answer: ACF
 		 */
 		
 

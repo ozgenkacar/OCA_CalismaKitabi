@@ -10,13 +10,14 @@ public class Q40 {
         List<String> arrList = new ArrayList<>(Arrays.asList(arr));
         if(arrList.removeIf( s-> { //s degeri
             System.out.print(s); // s array listing tamamini yazdirir
-            return s.length()<=2;  //sonra da lengthi 2 den kucuk olani remove yapar.
-        })){
+            return s.length()<=2;  })){  //sonra da lengthi 2 den kucuk olani remove yapar.
+
             System.out.print(" removed");
+            System.out.println(arrList); // [How, Are, You]
         }
-//        else{
-//            System.out.print("there is no ");
-//        }
+        else{
+            System.out.print("  there is no ");
+       }
     }
 
 

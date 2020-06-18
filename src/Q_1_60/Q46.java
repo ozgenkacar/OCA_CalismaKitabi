@@ -1,10 +1,11 @@
 package Q_1_60;
 
 public class Q46 {
-//    public static void main(String[] args) {
+    //   public static void main(String[] args) {
 //        String names [] = {"Thomas", "Peter", "Joseph"};
 //        String pwd [] = new String[3];
 //        int idx = 0;
+//
 //        try{
 //            for(String n : names){
 //                pwd[idx] = n.substring(2,6);  //ilk yazilan deger include ama son yazilan deger include olmaz substring de
@@ -19,7 +20,7 @@ public class Q46 {
 //            System.out.println(p);
 //        }
 //    }
-    //What is result?
+//    //What is result?
 
 //A
 // Invalid Name
@@ -48,28 +49,28 @@ public class Q46 {
     //second version
 
     public static void main(String[] args) {
-        String names [] = {"Thomas", "Peter", "Joseph"};
-        String pwd [] = new String[3];
+        String names[] = {"Thomas", "Peter", "Joseph"};
+        String pwd[] = new String[3];
         int idx = 0;
-        try{
-            for(String n : names){
-                pwd[idx] = n.substring(2,6);
+        try {
+            for (String n : names) {
+                pwd[idx] = n.substring(2, 6);
                 idx++;
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println("Invalid Name");
         }
         //there is no if block
+        System.out.println(idx);   //idx  =1
         System.out.println(pwd[idx]);
     }
-
+}
 
    // Answer
     //     Invalid Name
     //     omas
 
-}
+
 
 
 

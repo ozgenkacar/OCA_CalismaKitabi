@@ -12,7 +12,7 @@ class CCMask{
 
         StringBuilder sb = new StringBuilder(x);
         sb.append (creditCard, 15, 19); //append concat yapmak demek
-        return sb.toString();
+             return sb.toString();
 
     }
 

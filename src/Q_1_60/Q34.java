@@ -15,8 +15,8 @@ class WildAnimal extends Animal {
     String bounds;
     WildAnimal(String bounds) {
         //line n1
-        super(); //can be or not does not matter
-        this.bounds = bounds;
+      //  super(); //can be or not does not matter
+       this.bounds = bounds;
     }
     WildAnimal(String type, int maxSpeed, String bounds) {
         //line n2

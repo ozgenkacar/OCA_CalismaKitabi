@@ -4,7 +4,7 @@ public class Q5 {
 
 }
 class Vehicle {
-    String type = "4W'";
+    String type = "4W";
     int maxSpeed = 100;
 
     Vehicle(String type, int maxSpeed) {

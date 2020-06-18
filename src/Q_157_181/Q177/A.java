@@ -3,7 +3,9 @@ package Q_157_181.Q177;
 import java.io.IOException;
 
 public class A {
-    public void a(){}
+    public void a(){
+
+    }
     int a;
 }
 

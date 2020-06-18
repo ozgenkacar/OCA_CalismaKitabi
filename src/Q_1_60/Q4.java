@@ -4,6 +4,9 @@ public class Q4 {
         int iVar = 100;
         float fVar = 100.100f;
         double dVar = 123;
+        long LVar=20l;
+        dVar=LVar;
+        fVar=LVar;
 //          fVar = iVar;
 //          iVar = fVar;
 //          fVar = dVar;

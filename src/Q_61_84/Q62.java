@@ -35,8 +35,9 @@ these are local variables, we cannot use out of block them so ans gives error
             ans = 0;                         //line n1
       }catch (Exception e){
            System.out.println("invalid calculation");
+
       }
-      //    System.out.println("Ansver = " + ans);      //line n2
+     //   System.out.println("Ansver = " + ans);      //line n2
 
     }
 }

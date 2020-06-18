@@ -4,8 +4,8 @@ public class Q143{
 
 
  public static void main(String[] args) {
-        boolean a= new Boolean(Boolean.valueOf(args[0])); //iki deger alir icine string ve boolean
-        boolean b= new Boolean(args[1]);
+        boolean a= Boolean.valueOf(args[0]); //iki deger alir icine string ve boolean
+        boolean b= Boolean.valueOf(args[1]);
         System.out.print(a +" "  + b);
     }
 

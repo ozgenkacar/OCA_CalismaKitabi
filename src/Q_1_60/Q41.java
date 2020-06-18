@@ -13,6 +13,7 @@ public class Q41 {
         if(names.remove("Bran")){
             names.remove("John");
         }
+
         System.out.println(names);
     }
 

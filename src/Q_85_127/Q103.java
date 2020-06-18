@@ -1,5 +1,7 @@
 package Q_85_127;
 
+import java.util.Arrays;
+
 public class Q103 {
 }
 class Student {
@@ -11,12 +13,21 @@ class Student {
 class Test{
     public static void main(String[] args){
 
-        Student [] students= new Student[3];
-        students[1]=new Student("Richard");
-        students[2]=new Student("Donald");
-        for( Student s:students){
-            System.out.println(" "+s.name);
-        }
+//        Student [] students= new Student[3];
+//        students[1]=new Student("Richard");
+//        students[2]=new Student("Donald");
+//        for( Student s:students){
+//            System.out.println(" "+s.name);
+//        }
+
+        // pr'm't've data type deneme
+//        int[] x=new int[3];
+//        x[1]=2;
+//        System.out.println(Arrays.toString(x));
+//
+//        String[] y=new String[2];
+//        y[1]="a";
+//        System.out.println(Arrays.toString(y));
      }
 
 //second way

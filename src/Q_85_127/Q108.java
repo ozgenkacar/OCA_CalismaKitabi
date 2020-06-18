@@ -13,16 +13,16 @@ class Director extends Manager{
 public class Q108 {
     public static void main(String[] args) {
         Employee employee = new Employee();
-        Employee manager = new Manager();
+        Employee manager = new Director();
         Employee director = new Director();
         // n1line
-//          director.stockOptions = 1_000;
+
+   //     director.stockOptions = 1_000;
      	     employee.salary = 50_000;
 //      	 manager.budget = 1_000_000;
 //           manager.stockOption = 500;
 //       	 employee.budget = 200_000;
            director.salary = 80_000;
-
 
     }
 

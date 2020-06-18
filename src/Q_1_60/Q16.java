@@ -9,8 +9,9 @@ public class Q16 {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
                 if (arr[i][j].equals("B")) {
-                    continue;                  //continue nun altina bisey yazamayiz yazarsak compile error verir
+                    break;                  //continue nun altina bisey yazamayiz yazarsak compile error verir
                 }
+
             }
             continue;
         }

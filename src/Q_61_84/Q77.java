@@ -12,10 +12,10 @@ class Test {
         System.out.println("Checking Card");
 }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Test ex = new Test();
         int cardNo = 12344;
-    //    ex.readCard(cardNo);   // line n2
+      //   ex.readCard(cardNo);   // line n2
         ex.checkCard(cardNo);  // line n3
     }
 }

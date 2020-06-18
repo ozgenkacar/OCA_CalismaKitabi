@@ -5,10 +5,10 @@ public class Test {
     public static int stVar = 100;
     public int var =200;
 
-    public String toString () {
-        return stVar + ":" + var;
+public String toString () {
+       return stVar + ":" + var;
 
-    }
+   }
 
     public static void main(String[] args) {
         //And given the code fragment

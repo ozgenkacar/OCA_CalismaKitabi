@@ -7,6 +7,9 @@ class Base{
     public void test(){
         System.out.println("Base ");
     }
+    public void base(){
+        System.out.println("Base ");
+    }
 }
 
 // DerivedA.java:
@@ -14,11 +17,17 @@ class DerivedA extends Base {
     public void test() {
         System.out.println("DerivedA ");
     }
+    public void da(){
+        System.out.println("Base ");
+    }
 }
 //DerivedB.java:
 class DerivedB extends DerivedA {
     public void test () {
         System.out.println("DerivedB ");
+    }
+    public void db(){
+        System.out.println("Base ");
     }
     public static void main (String[] args) {
         Base b1 = new DerivedB();

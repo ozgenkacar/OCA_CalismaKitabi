@@ -3,19 +3,20 @@ package Q_128_156;
 public class Q135 {
 }
 
-//abstract class Toy {
-//
-//        int price;
+abstract class Toy {
+
+    int price;
+
 //        //line n1
 
 
- //Which three code fragments are valid at line n1?
+    //Which three code fragments are valid at line n1?
 
 
- //   A.
-//    public static void insertToy(){
-//  //  code goes here
-//    }
+    //   A.
+    public static void insertToy() {
+        //  code goes here
+    }
 
 //    B.
 // final Toy getToy(){  //
@@ -23,7 +24,7 @@ public class Q135 {
 //}
 ////    C.
 //    public void printToy();
-//
+
 ///
 //    D.
 //    public int calculatePrice() {
@@ -33,6 +34,7 @@ public class Q135 {
 ////    E.
 //    public abstract int computeDiscount();
 //}
+}
 /*
 
     A. Option A

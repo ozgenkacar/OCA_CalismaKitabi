@@ -2,14 +2,15 @@ package Q_1_60;
 
 
 public class Q58 {
+    public static void main(String[] args) {
+        System.out.println("String main "+ args[0]);
+
+
+    }
 }
 
     class MainTest{
-        public static void main(String[] args) {
-            System.out.println("String main "+ args[0]);
 
-
-        }
 
 
        /*

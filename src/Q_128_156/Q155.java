@@ -9,20 +9,17 @@ public class Q155 {
 		points.add(2);
 		points.add(3);
 		points.add(4);
-
-		
 		points.add(null);
-		Integer a = 1;
-		points.remove(1);
 
-		points.remove(null);
+		Integer a = 3;
+		points.remove(a);
+		points.remove(1);
+	//	points.remove(null);
 		System.out.println(points);
 
 
 
 
-		//	Integer a = 3;
-	   //	points.remove(a);
 	}
 
 }
